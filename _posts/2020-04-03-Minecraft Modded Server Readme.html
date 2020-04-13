@@ -1,0 +1,93 @@
+﻿---
+
+
+---
+
+<p>— layout : “post” layout : “post” —</p>
+<p><strong>Table of Contents</strong></p>
+<ol>
+<li>Introduction</li>
+<li>Requirements</li>
+<li>Installation</li>
+<li>Usage</li>
+<li>Troubleshooting</li>
+<li>Support</li>
+</ol>
+<hr>
+<h3 id="introduction">Introduction</h3>
+<p>Minecraft is an open world sandbox developed by Mojang. One of the defining features of Minecraft is the ability for players to create their own content known as mods that fundamentally change how the game is played. This guide will be showing you not only how to take advantage of these mods but also how to play with others while using them by teaching you how to host the game from your own computer.</p>
+<hr>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>
+<p>A copy of Minecraft and its game launcher which can be acquired <a href="https://www.minecraft.net/en-us/get-minecraft">here</a> and the requirements to run it.</p>
+</li>
+<li>
+<p>At least 8 GB of RAM but recommended is 16 GB - RAM is the biggest factor in smoothly running a modded server. A modded server for a few people can easily take up to 4 GB of RAM but is largely dependent on what mods you chose and how intensive they are. You can check how much RAM you have on windows by pressing the <strong>Windows key</strong>, searching <em>Control Panel</em>, clicking on <em>System and Security</em>, and then <em>System</em>.<img src="https://quehow.com/wp-content/uploads/2015/08/b7.jpg" alt="Checking RAM"></p>
+</li>
+<li>
+<p>Computer Specs that are capable of running the mods of your choosing. - While most mods will only need the requirements to run the base game of Minecraft some mods, like shaders for example, may require more powerful PC parts. For these mods be sure to check the specific requirements on their download page.</p>
+</li>
+<li>
+<p>LogMeIn Hamachi - This is a program used to connect other people to your server and is a alternative to port forwarding which will not be explained in this guide. It can be downloaded <a href="https://www.vpn.net/">here</a>.</p>
+</li>
+</ul>
+<hr>
+<h3 id="installation">Installation</h3>
+<h4 id="modding-your-minecraft-client">Modding your Minecraft Client</h4>
+<h5 id="step-1.--choose-a-version-of-minecraft.">Step 1.  Choose a version of Minecraft.</h5>
+<p>This can be decided based on what mods you want to install. Ideally you want to find a version that all of the mods work on while also having that version be as new as possible. A popular website to download mods from is <a href="https://www.curseforge.com/minecraft/mc-mods">Curse Forge</a>.</p>
+<h5 id="step-2.--install-forge.">Step 2.  Install Forge.</h5>
+<p>Once you have decided your version you’re going to go to <a href="http://files.minecraftforge.net/">Minecraft Forge</a>, find the version you selected, and download the latest version <strong>Windows Installer</strong>. When the download finishes open the file and you will be greeted with this window.<br>
+<img src="https://imag.malavida.com/mvimgbig/download-fs/minecraft-forge-24230-1.jpg" alt="forge downloader">Be sure to select <strong>Install Client</strong> and alter the directory if you like then select <strong>OK</strong>.</p>
+<h5 id="step-3.--open-minecraft-forge-version.">Step 3.  Open Minecraft Forge version.</h5>
+<p>Now that forge has installed, open your Minecraft client, click the drop down button next to the <strong>PLAY</strong> button and you should see a version named Forge. Click on that version and run the game.</p>
+<h5 id="step-4.-have-all-other-players-replicate--this-process.">Step 4. Have all other players replicate  this process.</h5>
+<p>You have successfully modded your Minecraft. Every person that wants to play with you will need to replicate this process so feel free to direct them to this guide.</p>
+<h4 id="setting-up-the-modded-server">Setting up the Modded Server</h4>
+<h5 id="step-1.-install-forge-server.">Step 1. Install Forge server.</h5>
+<p>Reopen the Forge installer you downloaded for the previous section but this time you’re going to select <strong>Install Server</strong>. For the directory I would recommend you pick somewhere easy to reach like a folder on your desktop.</p>
+<h5 id="step-2.-run-server-file.">Step 2. Run server file.</h5>
+<p>After the server installs into the folder you should see a executable named minecraft_server.*the version of forge you downloaded*. Run this file.<br>
+<img src="https://i.gyazo.com/17f63db1e53fb30319ae79799912384b.png" alt="Server FIles"></p>
+<h5 id="step-3.-agree-to-forge-eula">Step 3. Agree to Forge eula</h5>
+<p>After running the file some additional files and folders will appear inside your server folder. Open the text file named Eula and change the line <code>eula=false</code> to <code>eula=true</code>.</p>
+<h5 id="step-4.-create-the-server-mod-folder.">Step 4. Create the server mod folder.</h5>
+<p>Run the file named Forge-*version number*. You will see more folders appear, most notably the mods folder. This is where all mods you want running on your server will go.</p>
+<h5 id="step-5.-run-the-server.">Step 5. Run the server.</h5>
+<p>Finally run the minecraft_server.*version number* once again. This time it will open up a console with RAM usage and a command line and begin starting the server. Once you see the message <code>World Loaded</code> you have successfully created a modded minecraft server.</p>
+<hr>
+<h3 id="usage">Usage</h3>
+<h4 id="starting-the-server-and-joining">Starting the server and Joining</h4>
+<h5 id="step-1.--add-your-mods.">Step 1.  Add your mods.</h5>
+<p>When the game opens you will see that the menu is slightly different from the usual screen. Most notably is the mods button now located on the menu. Click that button to see all the mods you have installed. From that menu you can also open the mods folder which is where all your downloaded mods will need to be placed. Most will come in the form of a .jar file which can just be dragged and dropped into the folder.</p>
+<h5 id="step-2.-check-mod-compatibility.">Step 2. Check mod compatibility.</h5>
+<p>Make sure all the mods you want are compatible by restarting the game. If there is an error with any of the mods a message will be displayed stating what is missing or the error may be.</p>
+<h5 id="step-3.-copy-mods-to-the-server.">Step 3. Copy mods to the server.</h5>
+<p>Once your Minecraft loads without errors you can then copy and paste all mods from your Minecraft mod folder to the server mod folder.</p>
+<h5 id="step-4.-launch-the-server.">Step 4. Launch the server.</h5>
+<p>Launch the server using the minecraft_server.*version* file.</p>
+<h5 id="step-5.-use-hamachi-to-allow-others-to-connect.">Step 5. Use Hamachi to allow others to connect.</h5>
+<p>Open LogMeIn Hamachi and log in. Click the power button and under network press <strong>create a new network</strong> and have the other players join the network. From there all players can right click and click on your network and <strong>copy IPv4 address</strong>.<br>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Hamachi_%28software%29_interface_screenshot.jpg/230px-Hamachi_%28software%29_interface_screenshot.jpg" alt="Hamachi UI"></p>
+<h5 id="step-6.-join-the-server.">Step 6. Join the server.</h5>
+<p>Once the server is running all players can go under the multiplayer menu in Minecraft and <strong>Direct Join</strong> with the address you copied earlier.</p>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<ul>
+<li>If any of the files in the server folder don’t open or open and immediately close make sure that you have the most recent version of Java as having an older version of Java can cause improper loading.</li>
+<li>Many errors that are reported upon loading the game are due to certain mods you have downloaded needing other mods to work correctly. Make sure you install all required mods found on the target mod’s page.</li>
+<li>This method of creating a server is also based on establishing a connection between you and the other players so if your internet is having issues it can affect other players connection in the game.</li>
+</ul>
+<hr>
+<h3 id="support">Support</h3>
+<p>If you have any additional questions you can contact me at:<br>
+<a href="mailto:wernerar@appstate.edu">wernerar@appstate.edu</a></p>
+<hr>
+<h3 id="licensing">Licensing</h3>
+<p>Full license can be found <a href="https://choosealicense.com/licenses/mit/">here</a>.</p>
+<p>Picture Sources Here<br>
+<a href="https://en.wikipedia.org/wiki/LogMeIn_Hamachi">https://en.wikipedia.org/wiki/LogMeIn_Hamachi</a><br>
+<a href="https://quehow.com/how-to-check-ram-size-and-system-type-in-windows-10/4263.html">https://quehow.com/how-to-check-ram-size-and-system-type-in-windows-10/4263.html</a><br>
+<a href="https://imag.malavida.com/mvimgbig/download-fs/minecraft-forge-24230-1.jpg">https://imag.malavida.com/mvimgbig/download-fs/minecraft-forge-24230-1.jpg</a><br>
+<a href="https://www.minecraftforum.net/forums/support/server-support-and/2714660-forge-server-shows-up-as-vanilla">https://www.minecraftforum.net/forums/support/server-support-and/2714660-forge-server-shows-up-as-vanilla</a></p>
+
