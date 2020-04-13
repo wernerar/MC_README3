@@ -21,7 +21,7 @@
 title: PC Modding Tutorials
 email: wernerar@appstate.edu
 description: A site dedicated to README's for using various modding programs to install mods in PC games.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "MC_README3" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Wernerar
 
